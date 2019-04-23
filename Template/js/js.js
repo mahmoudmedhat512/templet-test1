@@ -1,0 +1,3 @@
+/*global $, alert, console*/
+
+c
