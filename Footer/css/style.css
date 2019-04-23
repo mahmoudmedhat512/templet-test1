@@ -1,0 +1,162 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background:linear-gradient(to right, #a02944 , #231c1c)
+}
+.container{
+	width: 80%;
+	margin: auto;
+	background-color: #2d2627;
+	border-radius: 10px;
+	box-shadow: 8px 8px 4px ;
+	height: auto;
+
+}
+
+.container h2{
+	
+	font-size: 32px;
+	color: #fff;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 20px;
+	
+}
+
+.form {
+	float: right;
+	width: 32%;
+	margin: auto;
+	margin-right: 15%;
+	 
+}
+
+.map{
+	float: left;
+	width: 33%;
+	margin: auto;
+	margin-left: 8%;
+
+}
+
+
+.form .input{
+	margin: auto;
+	display: block;
+	border:none;
+	border-bottom: 2px solid #5076bb;
+	margin-bottom: 20px;
+	background-color: #2d2627;
+	color: #fff;
+	font-weight: normal;
+	font-size: 20px;
+	height: 50px;
+	width:100%;
+	border-width: medium;
+
+
+}
+.textarea{
+	margin: auto;
+	display: block;
+	border:none;
+	border-bottom: 2px solid #5076bb;
+	margin-bottom: 20px;
+	background-color: #2d2627;
+	color: #fff;
+	border-width: medium;
+	font-weight: normal;
+	font-size: 20px;
+	height: 100px;
+	width: 100%;
+	resize: none;
+		margin-right: 2%;
+ 
+}
+
+::placeholder {
+	color: #fff;
+	font-weight: normal;
+	
+	font-size: 20px;
+}
+
+ input:last-child {
+ 	display: block;
+	margin:auto; 
+	height: 40px;
+	width: 150px;
+	background-color: #414956;
+	color: #fff;
+	font-size: 18px;
+	border:none;
+	border-radius: 5px;
+	box-shadow: 5px 5px 8px #291414;
+}
+
+
+
+.moreInfo {
+	margin-left: 8%;
+	height: 380px;
+    border-radius: 10px;
+    overflow: hidden;
+	
+}
+
+.icons{
+	display: block;
+	margin-left: 13%;
+	
+}
+
+.fa {
+
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  color: #FFF;
+  border-radius: 50%;
+  background-color: #776161;
+	margin-left: 8%;
+	margin-top: 5.3%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.clear{
+	clear: both;
+}
+
+.container p{
+	text-align: center;
+	font: 28px;
+	color: #fff;
+	padding:20px; 
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+	.map, .form{
+		clear: both;
+		width: 90%;
+		display: block;
+		margin: auto;
+	}
+	
+	.form{
+		margin-right: 3%;
+		margin-top: 30px;
+	}
+	.container{
+		height: auto;
+	}
+}
